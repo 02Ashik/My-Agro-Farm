@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashik's Agro Farm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="your-logo.png" alt="Ashik's Agro Farm Logo"> <!-- Replace with your logo -->
+        </div>
+        <h1>Ashik's Agro Farm</h1>
+        <p>"Naturally Grown, Eat Healthy, Stay Healthy"</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Ashik's Agro Farm</h2>
+        <p>We provide naturally grown, fresh produce straight from the farm to your table.</p>
+        <img src="farm-image.jpg" alt="Farm Image"> <!-- Replace with an image of your farm -->
+    </section>
+
+    <section id="products">
+        <h2>Farm Products</h2>
+        <p>Browse our farm-fresh products:</p>
+        <ul>
+            <li>Fresh Tomatoes - $5/kg</li>
+            <li>Organic Lettuce - $3/bunch</li>
+            <li>Farm Eggs - $4/dozen</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Ashik's Agro Farm is committed to providing fresh, naturally grown produce to our community. We take pride in our sustainable farming practices and in delivering healthy food for a healthier lifestyle.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ashik's Agro Farm</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Optional JavaScript -->
+</body>
+</html>
